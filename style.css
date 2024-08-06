@@ -1,6 +1,57 @@
-#presentacion {
-    height: 90vh;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+/* Selector universal */
+* {
+    font-family: "Gill sans", sans-serif;
+}
+/* Selector de etiqueta: 
+Ocupa el nombre de la etiqueta y modifica todas las ocurrencias */
+body{
+    background-color: white;
+}
+p {
+    background-color: white;
+    text-align: center;
+}
+div {
+background-color: white;
+}
+footer, header {
+    background-color: rgb(255, 196, 225);
+}
+/* Selector de clases */
+/* cambia todos los elementos que tengan la misma clase y el mismo formato */
+.galeria {
+    border: 0px solid #000;
+}
+
+.text-centrado 
+{
+text-align: center;
+}
+
+.inline
+{
+    display: inline-block;
+}
+/* Selector por ID */
+/* Nos permite seleccionar un elemento unico dentro del sitio, este solo debe aplicar a un elemento en su sitio */
+#logo {
+    width: 100px;
+    height: 100px;
+}
+#contacto {
+    /* background-image: url("imagenes/logo.jpg"); */
+    /* background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 50% 50%; */
+}
+
+/* Selector combinado 
+Podemos combinar mas de una opción para ir filtrando mis etiquetas*/
+#navegacion li
+{
+    display: inline;
+}
+#navegacion
+{
+    display: inline;
 }
