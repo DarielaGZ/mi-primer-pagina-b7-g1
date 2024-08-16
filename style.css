@@ -1,57 +1,70 @@
-/* Selector universal */
-* {
-    font-family: "Gill sans", sans-serif;
+#navbar {
+  background-color: rgb(255, 133, 174);
+  padding-top: 1.5rem;
 }
-/* Selector de etiqueta: 
-Ocupa el nombre de la etiqueta y modifica todas las ocurrencias */
-body{
-    background-color: white;
+#inicio {
+  background-color: rgb(255, 133, 174);
+  padding: 0px;
+  margin-bottom: 0px;
 }
-p {
-    background-color: white;
-    text-align: center;
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
-div {
-background-color: white;
-}
-footer, header {
-    background-color: rgb(255, 196, 225);
-}
-/* Selector de clases */
-/* cambia todos los elementos que tengan la misma clase y el mismo formato */
-.galeria {
-    border: 0px solid #000;
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.text-centrado 
-{
-text-align: center;
+#navbar {
+  font-family: sriracha;
 }
-
-.inline
-{
-    display: inline-block;
+#titulo {
+  font-family: pacifico;
+  font-size: 5rem;
+  color: rgb(250, 38, 109);
 }
-/* Selector por ID */
-/* Nos permite seleccionar un elemento unico dentro del sitio, este solo debe aplicar a un elemento en su sitio */
+#titulo-3 {
+  font-family: pacifico;
+  font-size: 4rem;
+  color: rgb(250, 38, 109);
+}
 #logo {
-    width: 100px;
-    height: 100px;
-}
-#contacto {
-    /* background-image: url("imagenes/logo.jpg"); */
-    /* background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 50% 50%; */
+  font-family: pacifico;
 }
 
-/* Selector combinado 
-Podemos combinar mas de una opción para ir filtrando mis etiquetas*/
-#navegacion li
-{
-    display: inline;
+#subtitulo {
+  font-family: sriracha;
+  font-size: 2rem;
 }
-#navegacion
-{
-    display: inline;
+#boton-ordenar {
+  background-color: rgb(250, 38, 109);
+  border: 0px;
+  width: 100%;
+  text-align: left;
+}
+
+h2 {
+  font-family: sriracha;
+  font-size: 2rem;
+  color: rgb(250, 38, 109);
+}
+#ordenar {
+  background-color: rgb(255, 133, 174);
+}
+
+#icons-ordenar {
+  font-size: 400%;
+  color: white;
+  border-radius: 50%;
+  border-color: white;
+  background-color: rgb(250, 38, 109);
+  border-style:solid;
+  padding: 10px 20px;
+  border-width: 5px;
+}
+#instrucciones {
+    font-size: 1.25rem;
 }
